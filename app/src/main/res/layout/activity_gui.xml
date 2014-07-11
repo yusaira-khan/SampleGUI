@@ -1,0 +1,104 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/frame"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/text_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Temperature"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/value_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+
+        android:layout_alignBottom="@+id/text_temperature"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/text_heart_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Heart Rate"
+
+        android:layout_below="@+id/value_temperature"
+        android:layout_alignRight="@+id/value_temperature"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/value_heart_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/text_DIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DIA"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/value_DIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        />
+
+    <TextView
+        android:id="@+id/text_SYS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SYS"
+
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/value_SYS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"/>
+
+
+    <TextView
+        android:id="@+id/waveform_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="WaveForm"
+
+        android:layout_marginTop="10dp" />
+    <LinearLayout
+        android:id="@+id/chart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+        <!-- android:layout_weight="1"-->
+
+</LinearLayout>
